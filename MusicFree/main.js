@@ -101,7 +101,7 @@ function renderCurrentMusic (song) {
     imgPlay.src=song.img;   
  
  }
-// var imgDefaul= io('http://html2020.tamphat.edu.vn/tunein/html/images/td1.png');
+ var imgDefaul= 'https://html2020.tamphat.edu.vn/tunein/html/images/td1.png';
 function render(data) {
     var htmlRender='';
     data.forEach(element => {
